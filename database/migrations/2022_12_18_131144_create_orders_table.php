@@ -19,7 +19,7 @@ return new class extends Migration
             $table->foreignId('user_id');
             $table->string('user_phone');
             $table->string('user_city');
-            $table->string('user_addresss');
+            $table->string('user_address');
             $table->timestamps();
         });
     }
