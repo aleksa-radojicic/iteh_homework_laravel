@@ -24,19 +24,26 @@ class UserSeeder extends Seeder
                 'name' => 'Blagoje',
                 'email' => 'blagojevic@email.com',
                 'password' => 'blagoje',
-                'remember_token' => Str::random(10)
+                'remember_token' => Str::random(10),
+                'created_at' => now(),
+                'updated_at' => now()
+
             ],
             [
                 'name' => 'Vojihna',
                 'email' => 'vojihnovic@email.com',
                 'password' => 'vojihna',
-                'remember_token' => Str::random(10)
+                'remember_token' => Str::random(10),
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'name' => 'Hrvatin',
                 'email' => 'hrvatinic@email.com',
                 'password' => 'hrvatin',
-                'remember_token' => Str::random(10)
+                'remember_token' => Str::random(10),
+                'created_at' => now(),
+                'updated_at' => now()
             ],
         ]);
     }

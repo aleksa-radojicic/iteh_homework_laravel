@@ -30,6 +30,6 @@ class DatabaseSeeder extends Seeder
             OrderItemSeeder::class
         ]);
 
-        Product::factory()->count(3)->create();
+        Product::factory(3)->create();
     }
 }

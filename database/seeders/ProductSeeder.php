@@ -26,6 +26,8 @@ class ProductSeeder extends Seeder
                 'image3' => 'featured1.jpg3',
                 'image4' => 'featured1.jpg4',
                 'price' => 149.99,
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'name' => 'EHEIM Smart climate controller',
@@ -35,6 +37,8 @@ class ProductSeeder extends Seeder
                 'image3' => 'featured1.jpg3',
                 'image4' => 'featured1.jpg4',
                 'price' => 299.99,
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'name' => 'EHEIM Autofeeder',
@@ -44,6 +48,8 @@ class ProductSeeder extends Seeder
                 'image3' => 'featured1.jpg3',
                 'image4' => 'featured1.jpg4',
                 'price' => 39.99,
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'name' => 'Sera Marine Granules Nature',
@@ -53,6 +59,8 @@ class ProductSeeder extends Seeder
                 'image3' => 'featured1.jpg3',
                 'image4' => 'featured1.jpg4',
                 'price' => 5.99,
+                'created_at' => now(),
+                'updated_at' => now()
             ],
             [
                 'name' => 'EHEIM Internal Filter',
@@ -62,6 +70,8 @@ class ProductSeeder extends Seeder
                 'image3' => 'featured1.jpg3',
                 'image4' => 'featured1.jpg4',
                 'price' => 149.99,
+                'created_at' => now(),
+                'updated_at' => now()
             ],
         ]);
     }
